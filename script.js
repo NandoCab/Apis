@@ -38,3 +38,33 @@ audioSource.connect(gainNode).connect(audioCtx.destination);*/
 
 const Link = document.querySelector("a");
 
+Link.textContend = "Mozilla devolper network";
+
+Link.href = "https://devolper.mozilla.org";
+
+const sect = document.querySelector("section");
+
+const para = document.querySelector("p");
+
+para.textContent = "We hope you enjoyed the ride";
+
+sect.appendChild(para);
+
+const text = document.createTextNode("The promise source for web developen knowloage");
+
+const LinkPara = document.querySelector("p");
+
+LinkPara.appendChild(text);
+
+sect.appendChild(LinkPara);
+
+/*sect.removeChild(LinkPara);*/
+
+
+para.style.color = "yellow";
+para.style.backgroundColor = "black";
+para.style.pading = "10px";
+para.style.width = "250px";
+para.style.textAlign = "center";
+
+para.setAttribute("class", "toroMax");
